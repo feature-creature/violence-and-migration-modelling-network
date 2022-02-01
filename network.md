@@ -28,10 +28,6 @@ button.btn{
     transition-duration: 0.2s, 0.2s, 0.2s;
     transition-timing-function: ease, ease, ease;
     transition-delay: 0s, 0s, 0s;
-    margin: 0.5rem;
-}
-#tags, #pins{
-    margin: 0 -0.5rem 1em;
 }
 
 g {
