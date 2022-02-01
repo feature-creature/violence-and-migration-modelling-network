@@ -119,7 +119,7 @@ d3.csv("assets/data/keywords.csv", function(error, keywords) {
         return d.nodeType == "tag" ? 20:15;
       });
 
-    node.append("title").text(function(d) { return d.id; });
+    node.append("title").text(function(d) { return d.name; });
 
     simulation
       .nodes(graph.nodes)
