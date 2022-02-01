@@ -73,6 +73,10 @@ g.active text{
   stroke-opacity: 1;
 }
 
+g.nodes:hover{
+    cursor: pointer;
+}
+
 </style>
 
 [Home](index.html){: .btn}
