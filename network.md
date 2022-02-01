@@ -86,6 +86,8 @@ g.nodes:hover{
     <svg></svg>
   </div>
 
+Under construction. Full list of members forthcoming.
+
 ## Institutions
   <div id="tags"></div>
 
