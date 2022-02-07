@@ -148,7 +148,7 @@ d3.csv("assets/data/keywords.csv", function(error, keywords) {
           tagsUl.selectAll('button').classed('active',false);
           pinsUl.selectAll('button').classed('active',false);
           d3.select("button[keyword='"+d.id+"']").attr("class","active btn");
-          d3.select(".library-info .description").text("");
+          d3.select(".library-info .description").html("");
           pinsUl.selectAll('button[links*="'+d.id+'"]').attr("class","active btn");
           // resort lis -> active to the top
           //clear highlighted nodes, highlight selected nodes
@@ -201,7 +201,7 @@ d3.csv("assets/data/keywords.csv", function(error, keywords) {
           tagsUl.selectAll('button').classed('active',false);
           pinsUl.selectAll('button').classed('active',false);
           d3.select("button[keyword='"+d.id+"']").attr("class","active btn");
-          d3.select(".library-info .description").text(d.description);
+          d3.select(".library-info .description").html(d.description);
           d3.select(".library-info").classed("active",true);
           //tagsUl.selectAll('li[links*="'+d.id+'"]').attr("class","active");
           //clear highlighted nodes, highlight new nodes
@@ -255,7 +255,7 @@ d3.csv("assets/data/keywords.csv", function(error, keywords) {
           tagsUl.selectAll('button').classed('active',false);
           pinsUl.selectAll('button').classed('active',false);
           d3.select("button[keyword='"+d.id+"']").attr("class","active btn");
-          d3.select(".library-info .description").text("");
+          d3.select(".library-info .description").html("");
           pinsUl.selectAll('button[links*="'+d.id+'"]').attr("class","active btn");
           // resort lis -> active to the top
           //clear highlighted nodes, highlight selected nodes
@@ -307,7 +307,7 @@ d3.csv("assets/data/keywords.csv", function(error, keywords) {
           tagsUl.selectAll('button').classed('active',false);
           pinsUl.selectAll('button').classed('active',false);
           d3.select("button[keyword='"+d.id+"']").attr("class","active btn");
-          d3.select(".library-info .description").text(d.description);
+          d3.select(".library-info .description").html(d.description);
           d3.select(".library-info").classed("active",true);
           //tagsUl.selectAll('li[links*="'+d.id+'"]').attr("class","active");
           //clear highlighted nodes, highlight new nodes
